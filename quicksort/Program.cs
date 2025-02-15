@@ -21,6 +21,7 @@ class QuickSort
     // Método que realiza la partición del array
     public static int Partition(int[] arr, int low, int high)
     {
+        //Aquí puede ser el mas alto, el mas bajo, el punto medio o random.
         int pivot = arr[high];
         Console.WriteLine($"\nIniciando partición con pivote {pivot} en la posición {high}");
 
