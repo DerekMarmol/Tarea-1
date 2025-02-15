@@ -1,0 +1,56 @@
+# Build and IDE settings
+.vs/
+*.user
+*.suo
+*.ntvs*
+*.njsproj
+*.sln.docstates
+*.sln.ide
+.idea/
+
+# Build output
+bin/
+obj/
+out/
+TestResults/
+BuildArtifacts/
+node_modules/
+dist/
+
+# Logs and cache
+*.log
+*.tlog
+*.cache
+.vscode/
+.env
+*.pid
+npm-debug.log
+yarn-error.log
+
+# Dependencies
+packages/
+*.nupkg
+*.snupkg
+project.lock.json
+project.assets.json
+
+# Resharper and Rider
+*.DotSettings
+*.DotSettings.user
+
+# JetBrains Rider
+.idea/
+
+# Mono
+*.mdb
+*.pdb
+
+# Visual Studio Code
+.vscode/
+.history/
+*.code-workspace
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
